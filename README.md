@@ -22,6 +22,6 @@ You can use whatever you think can be useful for this project (hooks, redux, rea
 
 You don't need to spend too much time on this test, our goal is to evaluate your choices and what you can produce. You will be interviewed by one of our engineer to explain your code
 
-Note that style matter, you are not a designer but we are not blind - Joel Courtois
+Note that style matter, you are not a designer but we are not blind - Undefined Undefined
 
 # Happy Coding
