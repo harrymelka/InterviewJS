@@ -18,7 +18,7 @@ You are going to get all the information from Firestore database in Firebase fro
 
 There is so many users and it would be great if we could have something to help us find one or filter them according to a criteria.
 
-You can use whatever you think can be useful for this project (hooks, redux, react-boostrap, navigation, funny stuff, none of it, ...).
+You can use whatever you think can be useful for this project (hooks, redux, tailwind, navigation, funny stuff, none of it, ...).
 
 You don't need to spend too much time on this test, our goal is to evaluate your choices and what you can produce. You will be interviewed by one of our engineer to explain your code
 
