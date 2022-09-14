@@ -2,15 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Firebase from "./conf/firebase";
 import * as serviceWorker from "./serviceWorker";
 
-function MyPearl() {
-  Firebase.init();
+function Root() {
   return <App />;
 }
 
-ReactDOM.render(<MyPearl />, document.getElementById("root"));
+ReactDOM.render(<Root />, document.getElementById("root"));
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 

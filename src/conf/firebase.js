@@ -1,5 +1,6 @@
-import * as firebase from "firebase";
-import "firebase/firestore";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const config = {
   apiKey: "AIzaSyCD4_jN-KLJonsMWpbqj5k8vY8YAEI_OM8",
@@ -8,13 +9,11 @@ const config = {
   projectId: "interviewjs",
   storageBucket: "interviewjs.appspot.com",
   messagingSenderId: "1010159610142",
-  appId: "1:1010159610142:web:462dbdca67fa6e4285010f"
+  appId: "1:1010159610142:web:462dbdca67fa6e4285010f",
 };
 
-export default class Firebase {
-  static init() {
-    firebase.initializeApp(config);
-    Firebase.auth = firebase.auth();
-    Firebase.firestore = firebase.firestore();
-  }
-}
+const firebase = initializeApp(config);
+const auth = getAuth();
+const db = getFirestore(firebase);
+
+export { firebase, auth, db };
